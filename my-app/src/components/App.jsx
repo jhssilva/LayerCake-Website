@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./Navbar";
+import Welcome from "./Welcome";
 
 function App() {
   const listNavItems = [
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <Navbar list={listNavItems} />
+      <Welcome />
     </div>
   );
 }
