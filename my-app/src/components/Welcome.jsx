@@ -1,5 +1,4 @@
 import river from "../img/river.jpeg";
-import "./Welcome.css";
 
 export default function Welcome() {
   return (

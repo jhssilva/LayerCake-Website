@@ -1,9 +1,11 @@
 import "./App.css";
 import Navbar from "./Navbar";
+import StepByStep from "./StepByStep";
 import Welcome from "./Welcome";
+import WhoIAm from "./WhoIAm";
 
 function App() {
-  const listNavItems = [
+  let listNavItems = [
     { key: 1, value: "Tools", isActive: true, ref: "" },
     { key: 2, value: "Ingredients", isActive: false, ref: "" },
     { key: 3, value: "Recipe", isActive: false, ref: "" },
@@ -16,6 +18,8 @@ function App() {
     <div className="App">
       <Navbar list={listNavItems} />
       <Welcome />
+      <WhoIAm />
+      <StepByStep />
     </div>
   );
 }

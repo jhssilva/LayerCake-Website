@@ -1,0 +1,89 @@
+/*** Auxiliar Classes   ***/
+
+.cover-fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+
+.opacity-80 {
+    opacity: 0.8;
+}
+
+.opacity-60 {
+    opacity: 0.6;
+}
+
+.background-black {
+    background-color: black;
+}
+
+/*** Auxiliar Classes   ***/
+
+/* Who I Am */
+
+.who-i-am .row {
+    text-align: center;
+}
+
+.who-i-am {
+    padding: 3% 5%;
+}
+
+.who-i-am .background-pink {
+    background-color: #FBD6D2;
+}
+
+.who-i-am .row div {
+    padding: 3% 5%;
+}
+/* Who I Am */
+
+/* Welcome */
+.welcome .bar {
+    width: 3vw;
+    height: 80vh;
+    background-color: #FBD6D2;
+}
+
+.welcome .mid h1 {
+    font-size: 10vw;
+    color: #FBD6D2;
+}
+
+.welcome .middle {
+    width: 100%;
+    padding: 5% 3%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.welcome .left,
+.welcome .right {
+    padding: 0 2%;
+}
+
+.welcome .top,
+.welcome .bottom {
+    color: white;
+}
+
+.welcome .bottom {
+    padding-top: 5rem;
+}
+/* Welcome */
+
+/* Step By Step */
+.step-by-step {
+    padding: 3% 5%;
+}
+
+.step-by-step .step-img {
+    background-image: url("https://fyf.tac-cdn.net/images/v2020/content/home-36.jpg?auto=webp&quality=60&width=1530");
+}
+
+.step-by-step .row ul li {
+    font-size: 2rem;
+}
+
+/* Step By Step */
